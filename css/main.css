@@ -58,7 +58,7 @@ header a:hover{
     min-height: 400px;
     margin:0px;
     color: #fff;
-    background-image: url("../Images/1.jpg");
+    background-image: url("../Images/back.jpg");
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -101,14 +101,14 @@ header a:hover{
     color:black;
 }
 #boxes .box{
-    margin-top: 20px;
+    margin: 10px;
     text-align:center;
     float:left;
-    width:33.3%;
+    width:30%;
     color:#fff;
-    background-color:#ccc;
-    border: 1px solid yellowgreen;
-    box-sizing: border-box;
+    background-color:#33345a;
+    border: 2px solid #ccc;
+    
 }
 #main-footer{
     background-color: yellowgreen;
@@ -116,5 +116,17 @@ header a:hover{
     margin-top:30px;
     padding: 20px;
     text-align: center;
+    
+}
+@media(max-width: 920px ){
+    header #header, header ul, header li, #suscribe h4, #subscribe form{
+        float: none;
+        text-align: center;
+        margin:auto;
+        width:100%;
+    }
+    header{
+        padding-bottom:20px;
+    }
     
 }
